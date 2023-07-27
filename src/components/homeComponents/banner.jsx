@@ -1,5 +1,6 @@
 import React from 'react'
 import './homeComponent.css'
+import ShopAllButton from '../buttons/shopAll'
 
 const banner = () => {
   return (
@@ -15,6 +16,7 @@ const banner = () => {
               <div className="banner-sub-title p bw cap c-pl ws-03">
                 "Nourish your family with the finest produce from our organic fields, cultivating health and sustainability from farm to table."
               </div>
+              <ShopAllButton marginTop="2rem"/>
             </div>
           </div>
           <div className="banner-grid-items right-item"></div>
