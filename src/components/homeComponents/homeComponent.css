@@ -1,0 +1,28 @@
+.banner{
+    min-height: 100vh;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.banner-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 20px; */
+}
+
+.banner-grid-items{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.banner-title{
+    margin-top: 1rem;
+}
+
+.banner-sub-title{
+    margin-top: 1rem;
+}
