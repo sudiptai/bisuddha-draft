@@ -14,12 +14,17 @@ const banner = () => {
                 Chemical-Free<br />Nutritious Food
               </div>
               <div className="banner-sub-title p bw cap c-pl ws-03">
-                "Nourish your family with the finest produce from our organic fields, cultivating health and sustainability from farm to table."
+                "Nourish your family with the finest produce from our organic fields,
+                cultivating health and sustainability from farm to table."
               </div>
-              <ShopAllButton marginTop="2rem"/>
+              <ShopAllButton marginTop="3rem"/>
             </div>
           </div>
-          <div className="banner-grid-items right-item"></div>
+          <div className="banner-grid-items right-item">
+            <div className="banner-grid-item bg-og banner-sample-container">
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
