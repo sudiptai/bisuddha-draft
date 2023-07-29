@@ -36,7 +36,7 @@
         grid-template-columns: 1fr;
     }
     .left-item{
-        align-items: start;
+        align-items: flex-start;
         order: 2;
     }
     .right-item{
@@ -61,7 +61,7 @@
 
 .ourPromise-grid-item{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 }
 
 
