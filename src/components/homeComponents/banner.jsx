@@ -1,7 +1,7 @@
 import React from 'react'
 import './homeComponent.css'
 import ShopAllButton from '../buttons/shopAll'
-import kb from '../../assets/images/bannerImages/SampleKB.png'
+// import kb from '../../assets/images/bannerImages/SampleKB.png'
 
 const banner = () => {
   return (
