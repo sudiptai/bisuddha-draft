@@ -1,6 +1,7 @@
 import React from 'react'
 import './homeComponent.css'
 import ShopAllButton from '../buttons/shopAll'
+import kb from '../../assets/images/bannerImages/SampleKB.png'
 
 const banner = () => {
   return (
@@ -22,7 +23,9 @@ const banner = () => {
           </div>
           <div className="banner-grid-items right-item">
             <div className="banner-grid-item bg-og banner-sample-container">
-              
+              <div className="banner-image-container bg-be">
+                {/* <img  src={kb} alt="" /> */}
+              </div>
             </div>
           </div>
         </div>

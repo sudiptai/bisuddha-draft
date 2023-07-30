@@ -1,5 +1,5 @@
 .banner{
-    padding-top: 2rem ;
+    padding-top: 3rem ;
 }
 
 .banner-container{
@@ -10,7 +10,7 @@
 .banner-grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-gap: 20px; */
+    grid-gap: 2rem;
 }
 
 .left-item {
@@ -31,9 +31,20 @@
 
 }
 
-@media (max-width: 960px){
+
+.banner-image-container{
+    background: transparent;
+}
+
+.banner-image-container img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 640px){
     .banner-grid-container{
         grid-template-columns: 1fr;
+        grid-gap: 0rem;
     }
     .left-item{
         align-items: flex-start;
@@ -56,12 +67,27 @@
 .ourPromise-grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 64px;
+    padding: 7rem 1rem;
 }
 
 .ourPromise-grid-item{
     display: flex;
     align-items: flex-start;
+    gap: 1rem
+}
+
+.ourPromise-icon{
+    border-radius: 50px;
+    height: 4rem;
+    width: 4rem;
+}
+
+.Promise-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
 
@@ -70,3 +96,12 @@
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
+
+
+/*Home Product Show Component*/
+
