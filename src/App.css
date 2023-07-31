@@ -9,7 +9,7 @@
 }
 
 .App{
-  min-height: 300vh;
+  min-height: 500vh;
 }
 
 /*root*/
@@ -29,11 +29,11 @@
   --bold-font-weight: 700;
 
   --title-font-size: 4rem;
-  --heading-1-font-size: 2.5rem;
-  --heading-2-font-size: 2rem;
-  --heading-3-font-size: 1.75rem;
-  --heading-4-font-size: 1.5rem;
-  --heading-5-font-size: 1.25rem; 
+  --heading-1-font-size: 3rem;
+  --heading-2-font-size: 2.5rem;
+  --heading-3-font-size: 2rem;
+  --heading-4-font-size: 1.75rem;
+  --heading-5-font-size: 1.5rem; 
   --paragraph-font-size: 1.2rem; 
 }
 
@@ -60,6 +60,7 @@
 .lc{text-transform: lowercase;}
 
 .ta-jus{text-align: justify;}
+.ta-cen{text-align: center;}
 
 .lw{font-weight:var(--light-font-weight);}
 .rw{font-weight:var(--regular-font-weight);}
@@ -82,7 +83,7 @@
 
 .sh-1 { box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);}
 .sh-2 { box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);}
-.sh-3 { box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);}
+.sh-3 { box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);}
 .sh-4 { box-shadow: 0 14px 10px rgba(0, 0, 0, 0.1);}
 
 /*Responsive */

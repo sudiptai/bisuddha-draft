@@ -106,7 +106,7 @@ const OurPromise = () => {
               <img className='ourPromise-icon sh-4' src={promise.img} alt="icon" />
               <div className="Promise-container">
                 <div className="Promise-heading">
-                  <h3>{promise.heading}</h3>
+                  <h4>{promise.heading}</h4>
                 </div>
                 <div className="Promise-description">
                   <p>{promise.description}</p>

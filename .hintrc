@@ -20,7 +20,8 @@
         "ignore": [
           "scrollbar-color",
           "scrollbar-width",
-          "overscroll-behavior"
+          "overscroll-behavior",
+          "overscroll-behavior-x"
         ]
       }
     ]
