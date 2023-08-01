@@ -5,19 +5,20 @@ const ShopAllButton = ({ marginTop }) => {
   const buttonStyle = {
     marginTop: marginTop || '0rem',
     display: 'flex',
-    width: '12rem',
+    width: '11rem',
     height: '3rem',
-    padding: '0.5rem 3.5rem',
+    padding: '0.5rem 2.8rem',
     justifyContent: 'center',
     alignItems: 'center',
     gap: '0.5rem',
     flexShrink: '0',
-    borderRadius: '100px',
+    borderRadius: '10px',
+    cursor: 'pointer',
   }
   
   return (
     <div className='button lex c-be rw bg-kg bw' style={buttonStyle}>
-      <p>Shop All</p>
+      <p className='lex'>Shop All</p>
     </div>
   )
 }

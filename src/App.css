@@ -23,6 +23,9 @@
   --platinum: #dfdfdf;
   --night-black: #161616;
   --beige: #f5f5dc;
+  --white: #fff;
+  --black: #000;
+  --navbar-white: #FDFEFF;
 
   --light-font-weight: 300;
   --regular-font-weight: 400;
@@ -46,6 +49,9 @@
 .bg-pl{background:var(--platinum);}
 .bg-nb{background:var(--night-black);}
 .bg-be{background:var(--beige);}
+.bg-w{background:var(--white);}
+.bg-b{background:var(--black);}
+.bg-nav{background:var(--navbar-white);}
 
 .c-dg{color:var(--dark-green);}
 .c-og{color:var(--olive-green);}
@@ -54,6 +60,8 @@
 .c-pl{color:var(--platinum);}
 .c-nb{color:var(--night-black);}
 .c-be{color:var(--beige);}
+.c-w{color:var(--white);}
+.c-b{color:var(--black);}
 
 .cap{text-transform: capitalize;}
 .uc{text-transform: uppercase;}
@@ -91,8 +99,17 @@
   margin: 0 100px;
 }
 
+@media (max-width: 340px) {
+  *{
+    font-size: 8px;
+  }
+  .container {
+    margin: 0 20px;
+  }
+}
+
 /* min-width: 320px and max-width: 639px */
-@media (max-width: 640px) {
+@media (min-width: 341px) and (max-width: 640px) {
   *{
     font-size: 10px;
   }
