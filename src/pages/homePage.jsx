@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from '../components/homeComponents/banner'
-import OurPromise from '../components/homeComponents/ourPromise'
-import HomeProductShow from '../components/homeComponents/homeProductShow'
+import Banner from '../components/Home/banner'
+import OurPromise from '../components/Home/ourPromise'
+import HomeProductShow from '../components/Home/homeProductShow'
 
 const homePage = () => {
   return (
