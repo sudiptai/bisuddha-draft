@@ -8,9 +8,13 @@
   font-size: 16px;
 }
 
-.App{
-  min-height: 500vh;
+.section{
+  padding-bottom: 10rem;
 }
+
+/* .App{
+  min-height: 500vh;
+} */
 
 /*root*/
 

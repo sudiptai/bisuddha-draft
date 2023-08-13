@@ -17,9 +17,11 @@ const ShopAllButton = ({ marginTop }) => {
   }
   
   return (
-    <div className='button lex c-be rw bg-kg bw' style={buttonStyle}>
-      <p className='lex'>Shop All</p>
-    </div>
+    <a href="/our-products">
+      <div className='button lex c-be rw bg-kg bw' style={buttonStyle}>
+        <p className='lex'>Shop All</p>
+      </div>
+    </a>
   )
 }
 

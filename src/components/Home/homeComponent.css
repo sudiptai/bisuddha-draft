@@ -164,3 +164,10 @@
         grid-template-columns: 1fr;
     }
 }
+
+
+/*Customer Testimonial*/
+.CT-intro{
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}

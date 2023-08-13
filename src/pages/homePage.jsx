@@ -1,14 +1,15 @@
 import React from 'react'
 import Banner from '../components/Home/banner'
 import OurPromise from '../components/Home/ourPromise'
-import HomeProductShow from '../components/Home/homeProductShow'
+import HomeProductShow from '../components/Home/homeProductShow';
+// import CustomerTestimonial from '../components/Home/customerTestimonial'
 
 const homePage = () => {
   return (
-    <div>
+    <div className='homePage section'>
         <Banner />
-        <OurPromise />
         <HomeProductShow />
+        <OurPromise />
     </div>
   )
 }
