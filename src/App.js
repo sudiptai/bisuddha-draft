@@ -7,6 +7,8 @@ import OurIngredientsPage from './pages/ourIngredientsPage';
 import BlogsPage from './pages/blogsPage';
 import AboutUsPage from './pages/aboutUsPage';
 import FooterPage from './pages/footerPage';
+import Amla from './components/OurIngredients/Ingredient.Amla';
+import Imli from './components/OurIngredients/Ingredient.Imli';
 import './styleSheets/customScrollBar.css'
 import { ReactLenis } from '@studio-freight/react-lenis'
 
@@ -20,6 +22,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/our-products" element={<OurProductsPage />} />
             <Route path="/our-ingredients" element={<OurIngredientsPage />} />
+            <Route path="/our-ingredients/amla" element={<Amla />} />
+            <Route path="/our-ingredients/imli" element={<Imli />} />
             <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/about-us" element={<AboutUsPage />} />
           </Routes>
