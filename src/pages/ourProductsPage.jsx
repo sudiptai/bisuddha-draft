@@ -2,7 +2,11 @@ import React from 'react'
 
 const ourProductsPage = () => {
   return (
-    <div>ourProductsPage</div>
+    <div className="our-products temp">
+      <div className="container">
+        <h1 className='ta-cen uc'>Our Products</h1>
+      </div>
+    </div>
   )
 }
 

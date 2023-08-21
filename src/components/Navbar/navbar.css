@@ -33,6 +33,7 @@
 
 .navbar-hamburger{
   display: none;
+  cursor: pointer;
 }
 
 

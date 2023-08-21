@@ -50,7 +50,9 @@ const Navbar = () => {
       {/* {navbarNotifications()} */}
       <div className="navbar-main bg-nav">
         <div className="navbar-logo">
-          <img src={logo} alt="" />
+          <a href="/">
+            <img src={logo} alt="" />
+          </a>
         </div>
         <div className="search-bar">
           <input type="text" placeholder='Search' className='search-input c-pl'/>

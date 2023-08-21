@@ -6,7 +6,7 @@ import HomeProductShow from '../components/Home/homeProductShow';
 
 const homePage = () => {
   return (
-    <div className='homePage section'>
+    <div className='homePage'>
         <Banner />
         <HomeProductShow />
         <OurPromise />

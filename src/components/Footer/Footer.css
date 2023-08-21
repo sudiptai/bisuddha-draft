@@ -1,18 +1,33 @@
 .footer{
-  min-height: 70vh;
-  padding: 5rem 2rem;
+  padding: 3rem 2rem;
 }
 
+.footer-links{
+  padding: .4rem 0;
+}
 
-.quick-links-items{
+.quick-links-items,
+.social-links-items,
+.contact-us-items,
+.footer-location-items{
   display: flex;
   flex-direction: column;
+  padding-top: 1rem;
 }
 
+.footer-contact-us,
+.footer-location{
+  padding-top: 4rem;
+}
+
+.footer-first-grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
 
 @media (max-width: 768px){
-  .footer{
-    min-height: 100vh;
-    padding: 10rem 2rem;
+  .footer-first-grid-container{
+    grid-template-columns: repeat(2, 1fr);
   }
 }

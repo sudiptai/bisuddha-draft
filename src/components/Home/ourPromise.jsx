@@ -26,8 +26,8 @@ const OurPromise = () => {
         y:0,
         scrollTrigger: {
           trigger: ".ourPromise",
-          start: "top 80%",
-          end: "bottom 90%",
+          start: "top 50%",
+          end: "bottom 70%",
           scrub: true,
           // markers: true,
           duration: 2,
@@ -46,8 +46,8 @@ const OurPromise = () => {
         y:0,
         scrollTrigger: {
           trigger: ".ourPromise",
-          start: "top 60%",
-          end: "bottom 90%",
+          start: "top 40%",
+          end: "bottom 70%",
           scrub: true,
           // markers: true,
           duration: 2,
@@ -66,8 +66,8 @@ const OurPromise = () => {
         y:0,
         scrollTrigger: {
           trigger: ".ourPromise",
-          start: "top 50%",
-          end: "bottom 90%",
+          start: "top 30%",
+          end: "bottom 70%",
           scrub: true,
           // markers: true,
           duration: 2,
