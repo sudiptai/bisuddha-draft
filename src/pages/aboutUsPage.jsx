@@ -5,7 +5,7 @@ const aboutUsPage = () => {
   return (
     <div className='about-us bg-be c-og'>
       <div className="container about-us-container">
-        <h1 className='about-head uc c-b'>About Us</h1>
+        <h1 className='ta-cen uc c-b'>About Us</h1>
         <h3 className='about-intro'>Bisuddha is an Indian-based food processing company that aims at serving customers with eco-friendly , chemical free and nutritious food.</h3>
         <p className='about-intro bw'>We focus on our four pillars - Society, Environment, People, Business</p>
         <p className='about-desc rw ta-jus'>

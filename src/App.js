@@ -11,6 +11,9 @@ import Amla from './components/OurIngredients/Ingredient.Amla';
 import Imli from './components/OurIngredients/Ingredient.Imli';
 import './styleSheets/customScrollBar.css'
 import { ReactLenis } from '@studio-freight/react-lenis'
+import Mango from './components/OurIngredients/Ingredient.Mango';
+import Guava from './components/OurIngredients/Ingredient.Guava';
+import CustardApple from './components/OurIngredients/Ingredient.CustardApple';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
             <Route path="/our-ingredients" element={<OurIngredientsPage />} />
             <Route path="/our-ingredients/amla" element={<Amla />} />
             <Route path="/our-ingredients/imli" element={<Imli />} />
+            <Route path="/our-ingredients/mango" element={<Mango />} />
+            <Route path="/our-ingredients/guava" element={<Guava />} />
+            <Route path="/our-ingredients/custard-apple" element={<CustardApple />} />
             <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/about-us" element={<AboutUsPage />} />
           </Routes>
