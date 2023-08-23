@@ -109,6 +109,7 @@
     padding: 6rem 0;
 }
 
+
 .PS-carousel-grid-container{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -146,10 +147,15 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+    padding: 1rem;
 }
 
 .carrousel::-webkit-scrollbar {
     display: none;
+}
+
+.carrousel a{
+    border-radius: 15px;
 }
 
 .card{
@@ -157,11 +163,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 10rem;
-    min-width: 20rem;
     border-radius: 15px;
-    background: var(--light-gray);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-product-image{
+    height: 18rem;
+    width: 16rem;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card-product-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 @media (max-width: 760px) {
