@@ -1,0 +1,34 @@
+.product-description-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+}
+
+.product-description-container{
+  padding: 0 4rem;
+}
+
+
+.product-description-image{
+  height: 18rem;
+  width: 18rem;
+}
+
+.product-description-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+@media (max-width: 640px){
+  .product-description-grid{
+    display: block;
+  }
+  .product-description-image-container{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+}

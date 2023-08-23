@@ -25,12 +25,12 @@ const OurPromise = () => {
         opacity: 1,
         y:0,
         scrollTrigger: {
-          trigger: ".ourPromise",
+          trigger: ".ourPromise-grid-container",
           start: "top 50%",
           end: "bottom 70%",
           scrub: true,
           // markers: true,
-          duration: 2,
+          duration: 3,
         }
       });
     });
@@ -45,12 +45,12 @@ const OurPromise = () => {
         opacity: 1,
         y:0,
         scrollTrigger: {
-          trigger: ".ourPromise",
+          trigger: ".ourPromise-grid-container",
           start: "top 40%",
           end: "bottom 70%",
           scrub: true,
           // markers: true,
-          duration: 2,
+          duration: 3,
         }
       });
     });
@@ -65,12 +65,12 @@ const OurPromise = () => {
         opacity: 1,
         y:0,
         scrollTrigger: {
-          trigger: ".ourPromise",
+          trigger: ".ourPromise-grid-container",
           start: "top 30%",
           end: "bottom 70%",
           scrub: true,
           // markers: true,
-          duration: 2,
+          duration: 3,
         }
       });
     });

@@ -1,4 +1,5 @@
 import React from 'react'
+import './homeComponent.css'
 
 const homeProductShow = () => {
 
@@ -13,24 +14,11 @@ const homeProductShow = () => {
             </div>
             <div className='PS-product-grid-container'>
               <div className='carrousel'>
+
                 <div className='card bg-pl'>
                   <p>Niladri</p>
                 </div>
-                <div className='card bg-pl'>
-                  <p>Niladri</p>
-                </div>
-                <div className='card bg-pl'>
-                  <p>Niladri</p>
-                </div>
-                <div className='card bg-pl'>
-                  <p>Niladri</p>
-                </div>
-                <div className='card bg-pl'>
-                  <p>Niladri</p>
-                </div>
-                <div className='card bg-pl'>
-                  <p>Niladri</p>
-                </div>
+
               </div>
             </div>
           </div>

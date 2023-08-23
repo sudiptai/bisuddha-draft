@@ -90,7 +90,7 @@
 }
 
 /*780px make this latter*/
-@media(max-width: 780px) {
+@media(max-width: 960px) {
   .navbar-nav-links{
     position: absolute;
     right: 0;

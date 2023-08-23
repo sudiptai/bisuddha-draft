@@ -2,6 +2,11 @@
   padding: 3rem 0;
 }
 
+.ingredient-container{
+  padding: 0 3rem;
+  text-align: justify;
+}
+
 .OurIngredient{
   padding: 8rem 0;
 }
@@ -52,8 +57,8 @@
 }
 
 .ingredient-image{
-  width: 24rem;
-  height: 28rem;
+  width: 18rem;
+  height: 22rem;
   object-fit: cover;
 }
 
@@ -77,7 +82,7 @@
 
 .ingredient-first-section{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: .6fr 1fr;
 }
 
 .in-info-sec{
