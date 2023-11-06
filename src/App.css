@@ -41,6 +41,7 @@
   --heading-3-font-size: 2rem;
   --heading-4-font-size: 1.75rem;
   --heading-5-font-size: 1.5rem; 
+  --heading-6-font-size: 1.3rem;
   --paragraph-font-size: 1.2rem; 
 }
 
@@ -86,6 +87,7 @@
 .h3, h3{font-size: var(--heading-3-font-size);}
 .h4, h4{font-size: var(--heading-4-font-size);}
 .h5, h5{font-size: var(--heading-5-font-size);}
+.h6, h6{font-size: var(--heading-6-font-size);}
 .p, p{font-size: var(--paragraph-font-size);}
 
 
@@ -107,6 +109,29 @@
   padding: 8rem 0;
   min-height: 100vh;
 }
+
+.pt-1{
+  padding-top: 1rem;
+}
+
+.pt-2{
+  padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 340px) {
   *{

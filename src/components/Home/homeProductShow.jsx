@@ -8,7 +8,7 @@ const homeProductShow = () => {
   //Sweet Amla , Ghee Amla , Gandharaaj Amla , Sweet Tangy , Sweet Chili Tangy , Extra Chili Tangy , Imli Achaar
   const products = [
     {
-      name: 'Sweet Amla',
+      name: 'Sweet Amla Candy',
       image: demoImg,
       link: '/our-products/sweet-amla',
       price: '100',
@@ -17,7 +17,7 @@ const homeProductShow = () => {
       tagLine: 'Sweet Amla'
     },
     {
-      name: 'Ghee Amla',
+      name: 'Ghee Amla Candy',
       image: demoImg,
       link: '/our-products/ghee-amla',
       price: '100',
@@ -26,7 +26,7 @@ const homeProductShow = () => {
       tagLine: 'Ghee Amla'
     },
     {
-      name: 'Gandharaaj Amla',
+      name: 'Gandharaaj Amla Candy',
       image: demoImg,
       link: '/our-products/gandharaaj-amla',
       price: '100',
@@ -85,7 +85,7 @@ const homeProductShow = () => {
               <div className='carrousel'>
                 
                 {products.map((product, index) => (
-                  <a href={product.link}>
+                  <a href={product.link} key={index}>
                     <div className="card">
                       <div className="card-product-image">
                         <img src={product.image} alt={product.name} />

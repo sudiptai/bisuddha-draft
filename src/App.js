@@ -21,6 +21,8 @@ import ExtraChiliTangy from './components/OurProducts/OurProduct.Imli.ExtraChili
 import ImliAchaar from './components/OurProducts/OurProduct.Imli.ImliAchaar';
 import SweetChiliTangy from './components/OurProducts/OurProduct.Imli.SweetChiliTangy';
 import SweetTangy from './components/OurProducts/OurProduct.Imli.SweetTangy';
+import ShopByCategories from './components/OurProducts/ShopByCategories';
+import ShopByIngredients from './components/OurProducts/ShopByIngredients';
 
 function App() {
   return (
@@ -31,12 +33,15 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
 
-            <Route path="/our-products" element={<OurProductsPage />} />
+            <Route path="/our-products" element={<OurProductsPage />} >
+              <Route index element={<ShopByIngredients />} />
+              <Route path="shop-by-categories" element={<ShopByCategories />} />
+              <Route path="shop-by-ingredients" element={<ShopByIngredients />} />
+            </Route>
 
             <Route path="/our-products/sweet-amla" element={<SweetAmla />} />
             <Route path="/our-products/ghee-amla" element={<GheeAmla />} />
             <Route path="/our-products/gandharaaj-amla" element={<GandharaajAmla />} />
-
             <Route path="/our-products/extra-chili-tangy" element={<ExtraChiliTangy />} />
             <Route path="/our-products/imli-achaar" element={<ImliAchaar />} />
             <Route path="/our-products/sweet-chili-tangy" element={<SweetChiliTangy />} />
