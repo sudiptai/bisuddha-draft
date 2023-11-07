@@ -1,5 +1,4 @@
 import React from 'react';
-import demoImg from '../../assets/images/product/demo-product.jpg';
 
 import SweetImliSauce from '../../AllProducts-Images/Sweet-Imli-1.jpg'
 import SweetChiliImliSauce from '../../AllProducts-Images/Sweet-chili-imli-1.jpg'
