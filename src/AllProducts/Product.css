@@ -1,0 +1,129 @@
+.product-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (max-width: 960px){
+  .product-container{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.product-container-left{
+  position: sticky;
+  top: 8rem;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: sticky;
+}
+
+.product-image{
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bababa;
+  border-radius: .5rem;
+}
+
+.product-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all .2s ease-in-out;
+}
+
+
+.prev-button,
+.next-button {
+  background-color: #fff;
+  color: var(--harvest-gold);
+  border: none;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  color: var(--dark-green);
+}
+
+.prev-button{
+  margin-right: .5rem;
+}
+
+.next-button{
+  margin-left: .5rem;
+}
+
+.prev-button span,
+.next-button span 
+{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.product-image-container{
+  display: flex;
+}
+
+
+.thumbnail-gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.thumbnail{
+  width: 4.2rem;
+  height: 4.2rem;
+  border: 1px solid #bababa;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.thumbnail img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.thumbnail:hover{
+  border: 2px solid var(--dark-green);
+}
+
+.thumbnail.active{
+  border: 2px solid var(--dark-green);
+}
+
+@media (max-width: 960px) {
+  .product-image-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .thumbnail-gallery {
+    padding-right: 0rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .thumbnail {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.product-container-right{
+  width: 100%;
+}

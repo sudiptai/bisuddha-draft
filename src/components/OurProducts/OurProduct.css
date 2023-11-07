@@ -97,10 +97,12 @@
   width: 100%;
   border-radius: 15px 15px 0px 0px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .product-card-img-container img{
-  width: 100%;
+  width: 80%;
   height: 100%;
   object-fit: cover;
 }
@@ -108,4 +110,20 @@
 .product-card-price-button{
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  padding-top: .5rem;
+}
+
+.know-more-button{
+  text-decoration: none;
+  background-color: var(--kelly-green);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.know-more-button:hover{
+  background-color: var(--harvest-gold);
 }

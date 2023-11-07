@@ -1,28 +1,38 @@
 import './App.css';
 import {BrowserRouter as Router,  Routes , Route } from 'react-router-dom';
-import HomePage from './pages/homePage';
+import { ReactLenis } from '@studio-freight/react-lenis'
+import './styleSheets/customScrollBar.css';
+
 import Navbar from './components/Navbar/navbar'
+import Footer from './pages/footerPage';
+
+/*Pages*/
+import HomePage from './pages/homePage';
 import OurProductsPage from './pages/ourProductsPage';
 import OurIngredientsPage from './pages/ourIngredientsPage';
 import BlogsPage from './pages/blogsPage';
 import AboutUsPage from './pages/aboutUsPage';
-import FooterPage from './pages/footerPage';
+
+
+import ShopByCategories from './components/OurProducts/ShopByCategories';
+import ShopByIngredients from './components/OurProducts/ShopByIngredients';
+
+/*All Ingredients*/
 import Amla from './components/OurIngredients/Ingredient.Amla';
 import Imli from './components/OurIngredients/Ingredient.Imli';
-import './styleSheets/customScrollBar.css'
-import { ReactLenis } from '@studio-freight/react-lenis'
 import Mango from './components/OurIngredients/Ingredient.Mango';
 import Guava from './components/OurIngredients/Ingredient.Guava';
 import CustardApple from './components/OurIngredients/Ingredient.CustardApple';
-import SweetAmla from './components/OurProducts/OurProduct.Amla.SweetAmla';
-import GheeAmla from './components/OurProducts/OurProduct.Amla.GheeAmla';
-import GandharaajAmla from './components/OurProducts/OurProduct.Amla.GandharaajAmla';
-import ExtraChiliTangy from './components/OurProducts/OurProduct.Imli.ExtraChiliTangy';
-import ImliAchaar from './components/OurProducts/OurProduct.Imli.ImliAchaar';
-import SweetChiliTangy from './components/OurProducts/OurProduct.Imli.SweetChiliTangy';
-import SweetTangy from './components/OurProducts/OurProduct.Imli.SweetTangy';
-import ShopByCategories from './components/OurProducts/ShopByCategories';
-import ShopByIngredients from './components/OurProducts/ShopByIngredients';
+
+/*All Products*/
+
+import SweetAmlaCandy from './AllProducts/Amla.SweetAmlaCandy';
+import GheeAmlaCandy from './AllProducts/Amla.GheeAmlaCandy';
+import GandharajAmlaCandy from './AllProducts/Amla.GandharajAmlaCandy';
+import ImliAchaar from './AllProducts/Imli.ImliAchaar';
+import SchezwanImliSauce from './AllProducts/Imli.SchezwanImliSauce';
+import SweetChiliImliSauce from './AllProducts/Imli.SweetChiliImliSauce';
+import SweetImliSauce from './AllProducts/Imli.SweetImliSauce';
 
 function App() {
   return (
@@ -39,13 +49,13 @@ function App() {
               <Route path="shop-by-ingredients" element={<ShopByIngredients />} />
             </Route>
 
-            <Route path="/our-products/sweet-amla" element={<SweetAmla />} />
-            <Route path="/our-products/ghee-amla" element={<GheeAmla />} />
-            <Route path="/our-products/gandharaaj-amla" element={<GandharaajAmla />} />
-            <Route path="/our-products/extra-chili-tangy" element={<ExtraChiliTangy />} />
+            <Route path="/our-products/sweet-amla" element={<SweetAmlaCandy />} />
+            <Route path="/our-products/ghee-amla" element={<GheeAmlaCandy />} />
+            <Route path="/our-products/gandharaaj-amla" element={<GandharajAmlaCandy />} />
             <Route path="/our-products/imli-achaar" element={<ImliAchaar />} />
-            <Route path="/our-products/sweet-chili-tangy" element={<SweetChiliTangy />} />
-            <Route path="/our-products/sweet-tangy" element={<SweetTangy />} />
+            <Route path="/our-products/schezwan-imli-sauce" element={<SchezwanImliSauce />} />
+            <Route path="/our-products/sweet-chili-imli-sauce" element={<SweetChiliImliSauce />} />
+            <Route path="/our-products/sweet-imli-sauce" element={<SweetImliSauce />} />
 
             <Route path="/our-ingredients" element={<OurIngredientsPage />} />
 
@@ -59,7 +69,7 @@ function App() {
             
             <Route path="/about-us" element={<AboutUsPage />} />
           </Routes>
-          <FooterPage />
+          <Footer />
         </div>
       </Router>
     </ReactLenis>
