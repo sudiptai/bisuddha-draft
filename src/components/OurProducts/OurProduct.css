@@ -114,7 +114,9 @@
   padding-top: .5rem;
 }
 
-.know-more-button{
+.know-more-button,
+.buy-btn
+{
   text-decoration: none;
   background-color: var(--kelly-green);
   color: white;
@@ -124,6 +126,8 @@
   transition: all 0.2s ease-in-out;
 }
 
-.know-more-button:hover{
+.know-more-button:hover,
+.buy-btn:hover
+{
   background-color: var(--harvest-gold);
 }

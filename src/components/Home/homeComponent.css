@@ -114,7 +114,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     /* height: 26rem; */
-    margin-top: 6rem;
+    margin-top: 2rem;
     grid-gap: 1rem;
     padding: 0 1rem;
 }
@@ -170,21 +170,26 @@
 .card-product-image{
     height: 18rem;
     width: 16rem;
-    border-radius: 15px;
+    border-radius: .5rem .5rem 0 0;
     overflow: hidden;
-    margin: 1rem;
+    margin: .3rem;
+    display: flex;
+    justify-content: center;
 }
 
 .card-product-image img{
     height: 100%;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
-    border-radius: 15px;
 }
 
 @media (max-width: 760px) {
     .PS-carousel-grid-container {
         grid-template-columns: 1fr;
+    }
+
+    .cap{
+        padding: 1rem;
     }
 }
 
