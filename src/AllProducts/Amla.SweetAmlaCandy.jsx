@@ -24,7 +24,7 @@ const SweetAmlaCandy = () => {
 
   const product = {
     name: "Sweet Amla Candy",
-    punchLine: "Just Like a Candy.",
+    punchLine: "Indulge in the natural goodness of amla with our Sweet Amla Candy. These succulent, dried amla pieces are delicately sugar-coated to create a sweet and tangy treat that's both wholesome and satisfying.",
     quantity: "50",
     price: "93",
     buyFromHere: [
@@ -68,7 +68,7 @@ const SweetAmlaCandy = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head: "",

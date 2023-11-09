@@ -25,7 +25,7 @@ const SchezwanImliSauce = () => {
 
   const product = {
     name: "Schezwan Imli Sauce (Tasty Tangy)",
-    punchLine: "A perfect blend of sweet and tangy taste.",
+    punchLine: "Explore the fusion of two culinary worlds in our Schezwan Imli Sauce. This sauce marries the zesty and bold flavors of Schezwan with the tangy goodness of tamarind. The result is a unique and irresistible sauce that adds an extra layer of complexity to your dishes. Perfect for adding a touch of Schezwan-inspired excitement to your favorite foods.",
     quantity: "800",
     price: "295",
     buyFromHere: [
@@ -69,7 +69,7 @@ const SchezwanImliSauce = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head: "",

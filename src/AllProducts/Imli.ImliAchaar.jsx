@@ -26,7 +26,7 @@ const ImliAchaar = () => {
 
   const product = {
     name: "Imli Achaar",
-    punchLine: "Mouth Watering Taste",
+    punchLine: "Savor the perfect blend of tangy and spicy with our Imli Pickle. Crafted from plump tamarind pods and an exquisite medley of aromatic spices, this pickle is a burst of flavors that will tantalize your taste buds.",
     quantity: "200",
     price: "110",
     buyFromHere: [
@@ -70,7 +70,7 @@ const ImliAchaar = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head: "",

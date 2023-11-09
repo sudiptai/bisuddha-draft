@@ -25,7 +25,7 @@ const SweetChiliImliSauce = () => {
 
   const product = {
     name: "Sweet Chili Imli Sauce (Tasty Tangy)",
-    punchLine: "A perfect blend of sweet and tangy taste.",
+    punchLine: "Take your taste buds on an exhilarating journey with our Sweet Chilly Imli Sauce. This sauce expertly combines the sweet and tangy notes of tamarind with a hint of spicy chili, creating a sauce that's both exciting and delectable. It's a versatile condiment for those who crave a bit of heat with their sweetness.",
     quantity: "800",
     price: "295",
     buyFromHere: [
@@ -69,7 +69,7 @@ const SweetChiliImliSauce = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head: "",

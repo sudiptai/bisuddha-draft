@@ -25,7 +25,7 @@ const SweetImliSauce = () => {
 
   const product = {
     name: "Sweet Imli Sauce (Tasty Tangy)",
-    punchLine : "A perfect blend of sweet and tangy taste.",
+    punchLine: "Our Sweet Imli Sauce is a culinary masterpiece that balances the bold tanginess of tamarind with a delightful sweetness. It's the perfect accompaniment for those who crave a harmonious blend of flavors, ideal for dipping, drizzling, or marinating.",
     quantity: "800",
     price: "295",
     buyFromHere : [
@@ -69,7 +69,7 @@ const SweetImliSauce = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head : "",

@@ -26,7 +26,7 @@ const GheeAmlaCandy = () => {
 
   const product = {
     name: "Ghee Amla Candy",
-    punchLine: "Taste Ghee Without Ghee.",
+    punchLine: "TExperience the rich and aromatic flavor of ghee in our Ghee Amla Candy (without ghee being the ingredient!!!) . Each piece combines the earthy notes of amla with the warm, buttery taste of ghee, resulting in a unique and delicious fusion of tastes.",
     quantity: "50",
     price: "93",
     buyFromHere: [
@@ -70,7 +70,7 @@ const GheeAmlaCandy = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head: "",

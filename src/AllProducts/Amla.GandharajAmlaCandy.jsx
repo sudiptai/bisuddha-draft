@@ -26,7 +26,7 @@ const GandharajAmlaCandy = () => {
 
   const product = {
     name: "Gandharaj Amla Candy",
-    punchLine: "Mood Freshening Fragrance.",
+    punchLine: "Refresh your palate with our Gandharaaj Amla Candy. These amla candies are infused with the zesty essence of Bengal's favorite Gandharaaj lime or lemon, offering a burst of citrusy freshness in every bite. A delightful and tangy twist on the classic amla candy.",
     quantity: "50",
     price: "93",
     buyFromHere: [
@@ -70,7 +70,7 @@ const GandharajAmlaCandy = () => {
       },
       {
         head: "",
-        details: "No Added Color, No Added Preservatives."
+        details: "No Added Color."
       },
       {
         head: "",
