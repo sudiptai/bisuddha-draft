@@ -1,0 +1,23 @@
+.reputations{
+  width: 100%;
+  display : flex;
+  justify-content: space-around;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.reputation{
+  height: 13rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: justify;
+  gap: 1rem;
+}
+
+.reputation img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

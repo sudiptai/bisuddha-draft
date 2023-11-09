@@ -18,21 +18,21 @@ const ShopByCategories = () => {
           name: "Sweet Amla Candy",
           img: SweetAmlaCandy,
           quantity: "50",
-          price: "75",
+          price: "93",
           link : "/our-products/sweet-amla"
         },
         {
           name: "Ghee Amla Candy",
           img: GheeAmlaCandy,
           quantity: "50",
-          price: "75",
+          price: "93",
           link : "/our-products/ghee-amla"
         },
         {
           name: "Gandharaj Amla Candy",
           img: GandharajAmlaCandy,
           quantity: "50",
-          price: "75",
+          price: "93",
           link : "/our-products/gandharaaj-amla"
         }
       ]
@@ -43,22 +43,22 @@ const ShopByCategories = () => {
         {
           name : "Sweet Imli Sauce",
           img : SweetImliSauce,
-          quantity : "600",
-          price : "161",
+          quantity : "800",
+          price : "295",
           link : "/our-products/sweet-imli-sauce"
         },
         {
           name : "Sweet Chili Imli Sauce",
           img : SweetChiliImliSauce,
-          quantity : "600",
-          price : "161",
+          quantity : "800",
+          price : "295",
           link : "/our-products/sweet-chili-imli-sauce"
         },
         {
           name : "Schezwan Imli Sauce",
           img : SchezwanImliSauce,
-          quantity : "600",
-          price : "161",
+          quantity : "800",
+          price : "295",
           link : "/our-products/schezwan-imli-sauce"
         },
       ] 
@@ -70,7 +70,7 @@ const ShopByCategories = () => {
           name : "Imli Achaar",
           img : ImliAchaar,
           quantity : "200",
-          price : "75",
+          price : "110",
           link : "/our-products/imli-achaar"
         },
       ]
@@ -94,7 +94,7 @@ const ShopByCategories = () => {
                     <h6 className="product-card-name pt-1">{product.name}</h6>
                     <h6 className="product-card-quantity pt-1">{product.quantity} gm</h6>
                     <div className='product-card-price-button'>
-                      <h6 className="product-card-price">Rs. {product.price}</h6>
+                      <h6 className="product-card-price">₹{product.price}</h6>
                       <button 
                         className="btn btn-primary h6 know-more-button lex"
                         onClick={() => {

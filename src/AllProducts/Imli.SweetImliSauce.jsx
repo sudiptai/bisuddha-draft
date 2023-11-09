@@ -6,6 +6,9 @@ import pic2 from '../AllProducts-Images/Sweet-Imli-2.jpg'
 import pic3 from '../AllProducts-Images/Sweet-Imli-3.jpg'
 import pic4 from '../AllProducts-Images/Sweet-Imli-4.jpg'
 
+import vegLogo from '../assets/icons/veg-icon.svg';
+import Reputation from '../components/reputations/reputation'
+
 const SweetImliSauce = () => {
 
   const images = [pic1,pic2,pic3,pic4];
@@ -23,8 +26,8 @@ const SweetImliSauce = () => {
   const product = {
     name: "Sweet Imli Sauce (Tasty Tangy)",
     punchLine : "A perfect blend of sweet and tangy taste.",
-    quantity: "600",
-    price: "161",
+    quantity: "800",
+    price: "295",
     buyFromHere : [
       {
         marketPlace : "amazon",
@@ -36,7 +39,7 @@ const SweetImliSauce = () => {
     alsoAvailableIn: [
       {
         quantity: "120 gm",
-        price: "39",
+        price: "52",
       }
     ],
     alsoBuyFromHere : [
@@ -65,8 +68,8 @@ const SweetImliSauce = () => {
         details : "No Chemicals, No Artificial Flavour."
       },
       {
-        head : "",
-        details : "No Added Color."
+        head: "",
+        details: "No Added Color, No Added Preservatives."
       },
       {
         head : "",
@@ -103,8 +106,12 @@ const SweetImliSauce = () => {
         details : "Plastic Bottle"
       },
       {
-        head : "Maximum Shelf Life",
-        details : "12 Months"
+        head: "Best Before",
+        details: "6 Months if stored in a cool and dry place"
+      },
+      {
+        head: "Recommended Storage",
+        details: "Product should be refrigerated for extended usage and longer self life."
       },
       {
         head : "Ingredient Type",
@@ -271,7 +278,14 @@ const SweetImliSauce = () => {
           </div>
           <div className="product-container-right">
             <div className="product-details">
-              <div className="product-name"><h2>{product.name}</h2></div>
+
+              <div className="product-name">
+                <h2>{product.name}</h2>
+                <div className="vegLogo">
+                  <img src={vegLogo} alt="" />
+                </div>
+              </div>
+
               {
                 product.punchLine ? <div className="product-punchline"><p className="lex">{product.punchLine}</p></div> : null
               }
@@ -469,6 +483,7 @@ const SweetImliSauce = () => {
                 }
               </div>
             </div>
+            <Reputation />
           </div>
         </div>
 

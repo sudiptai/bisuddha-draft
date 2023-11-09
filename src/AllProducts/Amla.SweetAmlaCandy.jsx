@@ -5,6 +5,9 @@ import pic1 from '../AllProducts-Images/Sweet-Amla-1.jpg'
 import pic2 from '../AllProducts-Images/Sweet-Amla-4.jpg'
 import pic3 from '../AllProducts-Images/Sweet-Amla-5.jpg'
 
+import vegLogo from '../assets/icons/veg-icon.svg';
+import Reputation from '../components/reputations/reputation'
+
 const SweetAmlaCandy = () => {
 
   const images = [pic1, pic2, pic3];
@@ -23,7 +26,7 @@ const SweetAmlaCandy = () => {
     name: "Sweet Amla Candy",
     punchLine: "Just Like a Candy.",
     quantity: "50",
-    price: "75",
+    price: "93",
     buyFromHere: [
       {
         marketPlace: "amazon",
@@ -35,7 +38,7 @@ const SweetAmlaCandy = () => {
     alsoAvailableIn: [
       {
         quantity: "150 gm",
-        price: "195",
+        price: "255",
       }
     ],
     alsoBuyFromHere: [
@@ -65,7 +68,7 @@ const SweetAmlaCandy = () => {
       },
       {
         head: "",
-        details: "No Added Color."
+        details: "No Added Color, No Added Preservatives."
       },
       {
         head: "",
@@ -102,8 +105,12 @@ const SweetAmlaCandy = () => {
         details: "Plastic Bottle"
       },
       {
-        head: "Maximum Shelf Life",
-        details: "12 Months"
+        head: "Best Before",
+        details: "6 Months if stored in a cool and dry place"
+      },
+      {
+        head: "Recommended Storage",
+        details: "Product should be refrigerated for extended usage and longer self life."
       },
       {
         head: "Ingredient Type",
@@ -352,7 +359,14 @@ const SweetAmlaCandy = () => {
           </div>
           <div className="product-container-right">
             <div className="product-details">
-              <div className="product-name"><h2>{product.name}</h2></div>
+
+              <div className="product-name">
+                <h2>{product.name}</h2>
+                <div className="vegLogo">
+                  <img src={vegLogo} alt="" />
+                </div>
+              </div>
+
               {
                 product.punchLine ? <div className="product-punchline"><p className="lex">{product.punchLine}</p></div> : null
               }
@@ -550,6 +564,7 @@ const SweetAmlaCandy = () => {
                 }
               </div>
             </div>
+            <Reputation />
           </div>
         </div>
 

@@ -32,7 +32,7 @@ const Footer = () => {
           <h3 className='c-be lex'>Contact Us</h3>
           <div className="contact-us-items">
             <h5 className='footer-links c-be rw lex'>+91 91470 48447</h5>
-            <a href="mailto:" className='footer-links c-be rw'><h5>joydeep.saha1982@gmail.com</h5></a>
+            <a href="mailto:bisuddhaenterprises@gmail.com" className='footer-links c-be rw'><h5>bisuddhaenterprises@gmail.com</h5></a>
             <h3 className='footer-location c-be lex'>Location</h3>
             <h5 className='footer-location-items c-be rw h5'><h5>3/149A Seth Colony (Lowland) Dumdum Kolkata -700 030</h5></h5>
           </div>
