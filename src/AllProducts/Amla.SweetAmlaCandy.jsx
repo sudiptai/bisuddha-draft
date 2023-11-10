@@ -106,7 +106,7 @@ const SweetAmlaCandy = () => {
       },
       {
         head: "Best Before",
-        details: "6 Months if stored in a cool and dry place"
+        details: "12 Months if stored in a cool and dry place"
       },
       {
         head: "Recommended Storage",
@@ -122,7 +122,7 @@ const SweetAmlaCandy = () => {
       },
       {
         head: "Added Preservatives",
-        details: "No"
+        details: "INS 211"
       },
       {
         head: "Artificial Flavour",

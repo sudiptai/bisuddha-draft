@@ -57,7 +57,7 @@ const SchezwanImliSauce = () => {
       },
       {
         head: "Quantity",
-        details: "150 gm"
+        details: "800 gm"
       },
       {
         head: "Base Ingredient",
@@ -91,7 +91,7 @@ const SchezwanImliSauce = () => {
       },
       {
         head: "Quantity",
-        details: "120 gm , 600 gm"
+        details: "120 gm , 800 gm"
       },
       {
         head: "Base Flavour",
@@ -107,7 +107,7 @@ const SchezwanImliSauce = () => {
       },
       {
         head: "Best Before",
-        details: "6 Months if stored in a cool and dry place"
+        details: "12 Months if stored in a cool and dry place"
       },
       {
         head: "Recommended Storage",
@@ -123,7 +123,7 @@ const SchezwanImliSauce = () => {
       },
       {
         head: "Added Preservatives",
-        details: "No"
+        details: "INS 211"
       },
       {
         head: "Artificial Flavour",
